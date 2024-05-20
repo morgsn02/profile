@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  font-family: "Space Mono";
+  background-color: #F6F9FC;
+  color: #2E0249;
+  text-align: center;
+  padding: 25px;
+}
+
+.container {
+  width: 500px;
+  /* Définit la largeur */
+  margin: 0 auto;
+  /* Définit automatiquement les marges à gauche/droite */
+}
+
+h1,
+h2 {
+  font-family: "Space Grotesk";
+  color: #565F7D;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #565F7D;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.btn-blue {
+  background-color: #6962FD;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0px;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+.card {
+  background-color: hsl(330, 50%, 98%);
+  padding: 30px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 15px;
+  border: 1px #570A57;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 2%;
+}
+
+@media (max-width: 960px) {
+
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
